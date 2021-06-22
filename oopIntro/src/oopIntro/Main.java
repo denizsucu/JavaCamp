@@ -2,7 +2,7 @@ package oopIntro;
 
 public class Main {
     public static void main(String[] args) {
-        Product product1 = new Product(1, "Lenovo V14", 15000, "16 GB RAM"); // Instance creating/ Bir class oluştururken ilk yapmamız gereken şey
+        Product product1 = new Product(1, "Lenovo V14", 15000, "16 GB RAM", 10, 13500); // Instance creating/ Bir class oluştururken ilk yapmamız gereken şey
 //        product1.id = 1;
 //        product1.name = "Lenovo V14";
 //        product1.unitPrice = 15000;
