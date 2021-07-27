@@ -1,12 +1,11 @@
 package Concrete;
 
-import Abstract.BaseCustomerManager;
 import Abstract.CustomerCheckService;
 import Entities.Customer;
 
 public class StarbucksCustomerManager extends BaseCustomerManager {
 
-    CustomerCheckService customerCheckService;
+    private CustomerCheckService customerCheckService;
 
     public StarbucksCustomerManager(CustomerCheckService customerCheckService){
         this.customerCheckService = customerCheckService;
@@ -14,14 +13,12 @@ public class StarbucksCustomerManager extends BaseCustomerManager {
 
     @Override
     public void save(Customer customer) throws Exception {
+
         if(customerCheckService.CheckIfRealPerson(customer)){
-            save(customer);
-            System.out.println("Saved to DB: " + customer.firstName);
-        }
-        else{
-            throw new Exception("Not a valid person!");
+            System.out.println("Saved to DB of Starbucks : " + customer.getFirstName());
+        }else {
+            System.out.println("Not a valid person!");
         }
 
     }
-
 }
