@@ -1,7 +1,7 @@
 package Entities;
 
 import java.time.LocalDate;
-import Abstract.Entity;
+import Abstracts.Entity;
 
 public class Customer implements Entity {
     public int id;

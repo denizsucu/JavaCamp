@@ -1,4 +1,4 @@
-package Abstract;
+package Abstracts;
 
 import Entities.Customer;
 

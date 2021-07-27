@@ -1,6 +1,6 @@
-package Concrete;
+package Concretes;
 
-import Abstract.CustomerCheckService;
+import Abstracts.CustomerCheckService;
 import Entities.Customer;
 
 public class StarbucksCustomerManager extends BaseCustomerManager {

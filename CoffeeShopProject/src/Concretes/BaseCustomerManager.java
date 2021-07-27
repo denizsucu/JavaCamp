@@ -1,6 +1,6 @@
-package Concrete;
+package Concretes;
 
-import Abstract.CustomerService;
+import Abstracts.CustomerService;
 import Entities.Customer;
 
 public abstract class BaseCustomerManager implements CustomerService {

@@ -1,6 +1,6 @@
 package Adapters;
 
-import Abstract.CustomerCheckService;
+import Abstracts.CustomerCheckService;
 import Entities.Customer;
 import MernisService.FQIKPSPublicSoap;
 

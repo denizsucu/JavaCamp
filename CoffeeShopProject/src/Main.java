@@ -1,9 +1,9 @@
 import java.time.LocalDate;
 
 import Adapters.MernisServiceAdapter;
-import Concrete.BaseCustomerManager;
-import Concrete.NeroCustomerManager;
-import Concrete.StarbucksCustomerManager;
+import Concretes.BaseCustomerManager;
+import Concretes.NeroCustomerManager;
+import Concretes.StarbucksCustomerManager;
 import Entities.Customer;
 
 public class Main {
